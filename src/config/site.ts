@@ -1,4 +1,4 @@
-import { z } from "zod";
+
 
 export const siteConfig = {
     name: "Proptech Dashboard",
@@ -17,7 +17,7 @@ export const siteConfig = {
             href: "/analytics",
         },
     ],
-   
+
 } as const;
 
 export type SiteConfig = typeof siteConfig;

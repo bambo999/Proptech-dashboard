@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -12,7 +12,7 @@ export function SalesOverview() {
 
     return (
         <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 h-full">
-    
+
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-4">
                 <div>
                     <h2 className="text-lg font-bold text-gray-900">Sales Overview</h2>
@@ -46,7 +46,7 @@ export function SalesOverview() {
                 </div>
             </div>
 
-        
+
             <div className="border-t border-gray-100 -mx-5 mb-8" />
 
             <div className="flex flex-col lg:flex-row gap-8">
@@ -64,7 +64,7 @@ export function SalesOverview() {
                     </div>
                 </div>
 
-                
+
                 <div className="lg:w-[50%]">
                     <StatsGrid />
                 </div>
